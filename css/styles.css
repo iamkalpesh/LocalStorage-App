@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+label{
+    font-size: 12px;
+}
+.myform{
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 25px;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 0 12px 24px rgb(2 30 84 / 15%);
+    border-radius: 10px;
+}
+
+.submit-btn{
+    background-color: rgb(0, 94, 218);
+    color: #fff;
+    border: 1px solid  rgb(0, 94, 218);
+    padding: 5px 0px;
+    width: 5rem;
+}
+
+.clear-btn{
+    background-color: rgb(219, 63, 63);
+    color: #fff;
+    border: 1px solid  rgb(219, 63, 63);
+    padding: 5px 0px;
+    width: 5rem;
+}
+
+select, input{
+    border: 1px solid rgb(175, 175, 175);
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.textfield{
+    margin-top: 0.5rem;
+}
+
+.submit-btn:hover{
+    background-color: #fff;
+    color: rgb(0, 94, 218);
+}
+
+.clear-btn:hover{
+    background-color: #fff;
+    color: rgb(219, 63, 63);
+}
+
+.mobile{
+    width: 5.5rem;
+}
+
+.signIn{
+    margin-top: 10rem;
+}
+
+.signIn input{
+    width: 200px;
+}
+
+.signIn p, a{
+    font-size: 12px;
+}
+
+.banner{
+    background-image: url('./images/gym_back.jpg');
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: center;
+    background-size: cover;
+
+}
+
+.left-heading{
+    font-weight: 900;
+}
+
+.home-wrapper{
+    padding: 14rem 2rem;
+}
+
+.home-wrapper{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.card-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
